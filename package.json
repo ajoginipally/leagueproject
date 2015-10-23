@@ -1,0 +1,23 @@
+{
+  "name": "leagueproject",
+  "version": "1.0.0",
+  "description": "Artemis GG website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajoginipally/leagueproject.git"
+  },
+  "author": "Abhiteja Joginipally",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ajoginipally/leagueproject/issues"
+  },
+  "homepage": "https://github.com/ajoginipally/leagueproject#readme",
+  "dependencies": {
+    "express": "^4.13.3",
+    "express-handlebars": "^2.0.1"
+  }
+}
