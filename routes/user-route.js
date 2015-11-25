@@ -2,6 +2,8 @@ var express = require('express');
 
 var online = require('../lib/online').online;
 
+require('./api.js')(app);
+
 var router = express.Router();
 
 router.get('/user-login', (req, res) => {
