@@ -12,12 +12,16 @@
   },
   "author": "Abhiteja Joginipally",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ajoginipally/leagueproject/issues"
-  },
   "homepage": "https://github.com/ajoginipally/leagueproject#readme",
   "dependencies": {
+    "archiver": "^0.17.0",
+    "body-parser": "^1.14.1",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.0",
     "express": "^4.13.3",
-    "express-handlebars": "^2.0.1"
+    "express-handlebars": "^2.0.1",
+    "express-session": "^1.12.1",
+    "fs-extra": "^0.26.2",
+    "morgan": "^1.6.1"
   }
 }

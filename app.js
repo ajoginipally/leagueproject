@@ -5,7 +5,7 @@ var handlebars = require('express-handlebars');
 
 var app = express();
 
-app.set('port', process.env.PORT || 4000);
+app.set('port', process.env.PORT || 5000);
 
 // setup handlebars
 var view = handlebars.create({ defaultLayout: 'main' });
